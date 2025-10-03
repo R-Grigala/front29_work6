@@ -128,10 +128,10 @@ header a img {
 div h1,
 div p{
 	margin: 30px;
+	border-radius: 12px;
 }
 
 div{
-	width: 40%;
 	margin-top: 80px;
 }
 
@@ -145,4 +145,55 @@ h1{
 
 p{
 	font-family: 'Helvetica Neue LT GEO 45 Lights';
+}
+
+.projects{
+	margin-top: 200px;
+}
+
+.project-cards{
+	display: flex;
+	gap: 30px;
+	align-content: mid;
+}
+
+.project {
+	position: relative;
+}
+
+.project p {
+	position: absolute;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	fill-opacity: 40%;
+	bottom: 0;
+}
+
+.partners {
+	margin-top: 200px;
+}
+
+.partner-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.partner-text {
+	flex: 1;
+	margin-right: 40px;
+}
+
+.partner-icons {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); 
+	gap: 20px; 
+	max-width: 600px;
+}
+
+.partner-icons img {
+	width: 100px;
+	height: auto;
+	justify-self: center;
 }
